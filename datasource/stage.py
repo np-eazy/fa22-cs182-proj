@@ -2,7 +2,6 @@
 # with transforming, processing, and tampering with the data. It can either be
 # When the simulator "adds" new datapoints it will save them to a data file that
 # can be loaded later to create a new Stage.
-
 class Stage:
     def __init__(self, name):
         self.name = name

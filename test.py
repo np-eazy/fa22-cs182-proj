@@ -6,6 +6,7 @@ from datasource import stage
 from model import network
 from analytics import *
 
+# === DATA GENERATION/SIMULATION TESTS ===
 # Information about the simulation's resolution, relevant to the model's complexity. 
 d = 4                # Grid size
 max_particles = 10    # Number of particles to be accommodated by the network
@@ -37,8 +38,11 @@ physical_props = {
     "delta_x": 1e-12,   # The physical length of one pixel in meters
     "delta_t": 1e-9,    # The physical time elapsed per datapoint in seconds      
 }
-
 stage_test1 = stage.Stage("stage_test1")
 print(stage_test1)
 simulator.generate_simulation(stage_test1, model_props, physical_props)
 #assert stage.load_simulation("stage_test1") == stage_test1
+
+# === TODO: MODEL TRAINING/TESTING TESTS ===
+
+# === TODO: MODEL ANALYTICS TESTS ===
