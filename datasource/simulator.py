@@ -15,5 +15,6 @@ def generate_simulation(stage, model_props, physical_props):
 
     stage.add(particles)
     for t in range(timesteps):
+        # TODO: Implement QMSolver using data from model_props and physical_props
         stage.add(copy.deepcopy(particles))
     return None
