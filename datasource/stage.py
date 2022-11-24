@@ -13,7 +13,7 @@ class Stage:
     def clear(self):
         self.model_props = None
         self.physical_props = None
-        self.data = None
+        self.data = []
     
     def set_model_props(self, model_props):
         self.model_props = model_props
@@ -22,6 +22,7 @@ class Stage:
         self.physical_props = physical_props
 
     def add(self, nextstep):
+        print(self.data)
         self.data += [nextstep]
         # TODO: Here we should be implementing persistence/caching for large data
 
