@@ -18,4 +18,4 @@ Our full writeup can be found [here.](https://docs.google.com/document/d/11M-RaV
 ### BEFORE RUNNING ANYTHING:
 The model requires input data that was too large to upload to Github. You must download it manually, [here](https://drive.google.com/file/d/1LSFFQ69SqGq7GAMg-7BeM5VD_VwT1pyD/view?usp=sharing)
 You can also produce the data by running `Data_Generation.ipynb`. This will add the files to your mounted Google Drive at the root directory, which you should download into this repository.  
-To verify our model performance, run `Schrodinger_Network.ipynb` and `Schrodinger_Network.ipynb` and observe the resulting plots, discussed in our writeup.
+To verify our model performance, run `Schrodinger_Network.ipynb` and `Schrodinger_Network_MAE.ipynb` and observe the resulting plots, discussed in our writeup.
